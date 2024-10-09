@@ -1,6 +1,9 @@
 name: Build and run
 
 on:
+  pull_request:
+    branches:
+      - main
   workflow_dispatch:
 
 jobs:
