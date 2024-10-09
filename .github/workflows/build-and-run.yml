@@ -1,4 +1,4 @@
-name: CI
+name: Build and run
 
 on:
   workflow_dispatch:
@@ -20,6 +20,5 @@ jobs:
     - name: Build with Maven
       run: ./mvnw clean install
 
-  test:
     - name: Run tests
       run: ./mvnw test
