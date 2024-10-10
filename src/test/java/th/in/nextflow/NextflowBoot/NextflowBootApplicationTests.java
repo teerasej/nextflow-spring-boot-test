@@ -8,6 +8,8 @@ class NextflowBootApplicationTests {
 
 	@Test
 	void contextLoads() {
+		assertTrue(false);
 	}
+	
 
 }
